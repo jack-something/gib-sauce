@@ -22,15 +22,15 @@ def parse_json(data):
                 if (k == "material"):
                     title.append(v)
                 elif (k == "ext_urls"):
-                    
+
                     for i in v:
                         sources.append(i)
                     #else:
                         #sources.append(v)
 
     return title, sources
-                         
-           
+
+
 
 def main(picture_url):
     data = get_json(picture_url)
@@ -38,11 +38,11 @@ def main(picture_url):
     print("Found the following matches:")
     for i in arr[0]:
         print( "-" + i)
-    
+
     print("\nWith the following pictures:")
-    for j in arr[1]:    
+    for j in arr[1]:
         print(str(j))
-    
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--url", help="url of the picture you wish to look up")

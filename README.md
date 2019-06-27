@@ -1,13 +1,42 @@
-# gib-sauce
+<h1 align="center">Welcome to gib-sauce 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/jack-something/gib-sauce/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/jack-something/gib-sauce/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+</p>
 
-A CLI program which allows you to find where a picture is from, it also prints a bunch of URLs (in the terminal) where you can download the original picture.
+> CLI that gives you the original source of an image.
 
+### 🏠 [Homepage](https://github.com/jack-something/gib-sauce#readme)
 
-# Usage
+## Usage
 
-./sauce --url http://is2.4chan.org/w/1548420048781.png
+```sh
+./sauce --url https://your_picture_url.com/picture.png
+```
 
+## Author
 
-# Requirements
+👤 **Jack Moore**
 
-- Python3 requests
+* Github: [@jack-something](https://github.com/jack-something)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/jack-something/gib-sauce/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [Jack Moore](https://github.com/jack-something).<br />
+This project is [MIT](https://github.com/jack-something/gib-sauce/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
